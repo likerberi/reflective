@@ -1,24 +1,14 @@
-import React, { Component, Fragment } from 'react';
-import styled, { injectGlobal } from "styled-components";
+import React, { Component } from 'react';
+import styled, { injectGlobal, ThemeProvider } from "styled-components";
+import theme from './theme';
+
 
 injectGlobal`
   body {
     padding: 0;
     margin : 0;
   }
-`
-
-class App extends Component {
-  render() {
-    return (
-      <Container>
-        <Button> Hi </Button>
-        <Button danger>Hello</Button>
-        <Anchor href="http://recovery97.tistory.com">HOME</Anchor>
-      </Container>
-    );
-  }
-}
+`;
 
 const Container = styled.div`
   height: 100vh;
@@ -26,26 +16,34 @@ const Container = styled.div`
   background-color: #bdc3c7;
 `;
 
+const Card = styled.div`
+  background-color: white;
+`;
+
 const Button = styled.button`
-  border-radius: 3px;
-  padding: 0.25em 1em;
-  margin: 0 1em;
-  background: transparent;
-  color: palevioletred;
-  border: 2px solid palevioletred;
-  &:active,
-  &:focus{
-    outline:none;
-  }
-  background-color: ${
-    props => (props.danger ? "#2ecc71" : "#e74c3c")
-  }
+  border-radius: 30px;
+  padding: 25px 15px;
+  background-color: ${props => props.theme.successColor}
 `;
 
-const Anchor = Button.withComponent("a").extend`
-  text-decoration: none;
-`;
+class App extends Component {
+  render() {
+    return (
+      <ThemeProvider theme={theme}>
+        <Container>
+          <Form />      
+        </Container>
+      </ThemeProvider>
+    );
+  }
+}
 
-
+const Form = () => (
+  <Card> 
+    <Button>
+      Hello
+    </Button>
+  </Card>
+)
 
 export default App;
