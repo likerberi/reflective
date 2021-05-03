@@ -7,4 +7,6 @@
   
 ~ Firebase Hosting
   
-~ Flutter Web. 
+~ Flutter Web.  
+
+~ TFlite & WebGL  
