@@ -5,8 +5,7 @@
 익스
 위블리 등. 
   
-~ Firebase Hosting
-  
+~ Firebase Hosting  
+~ Google Domains(biz)  
 ~ Flutter Web.  
-
 ~ TFlite & WebGL  
