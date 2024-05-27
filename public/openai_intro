@@ -1,0 +1,9 @@
+핵심개념::  
+텍스트 생성 모델  
+For generating contents, codes and writing. Summarize, dialog.  
+어시스턴트  
+LLM entities   
+임베딩  
+For search, clustering, classification etc.   
+토큰  
+=Chunk, character sequence.   
