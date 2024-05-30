@@ -1,0 +1,3 @@
+2022.11.30  
+ChatGPT 3.5, 프롬프트의 지시를 따르고 자세한 응답을 제공하도록 훈련된 지도GPT의 형제 모델.  
+동일한 방법을 사용하여 RLHF(Reinforcement Learning from Human Feedback)를 사용하여 이 모델을 훈련 + 약간의 지도 미세 조정.   
