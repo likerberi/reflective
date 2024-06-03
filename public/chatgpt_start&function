@@ -1,0 +1,3 @@
+Model-order-by-tokens //(start)  
+GPT4o(12.8k) ~ GPT4-Turbo(12.8k~32k) >= GPT3.5Turbo(16k)  
+response['choices'][0]['text'] //(function)  
