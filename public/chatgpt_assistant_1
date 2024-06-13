@@ -1,0 +1,7 @@
+Assistant  
+type: interpreter, file search, calling function  
+Ex. Designated model(gpt-4o), instructions and tools(code_interpreter)  
+  
+Const thread = await openai.beta.threads.create();  
+  
+And run.   
