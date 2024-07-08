@@ -1,0 +1,4 @@
+Running evaluations, classifying large datasets and embedding content repositories  
+Better cost, higher rate limits(substantial headroom), fast and quick  
+step:: in_progress != finalizing, expired(24hours)  
+Batch API rate limits are separate from existing per-model rate limits.  
